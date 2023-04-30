@@ -18,7 +18,7 @@ Finally, you’ll add these new visualizations to the two you created in this mo
 ## Data Cleaning
 Before we began the data analysis it was imperative to clean up some of the data, particularly the trip duration column which needed to be changed from an integer to a datatime format using Pandas Dataframes.
 
-![Data Cleaning](Resources/datacleaning.png)
+![Data Cleaning](Resources/dataclean.png)
 
 To ensure the raw data contained the data the way we wanted it we checked the .csv
 
