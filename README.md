@@ -27,43 +27,43 @@ To ensure the raw data contained the data the way we wanted it we checked the .c
 ## Data Analysis
 Through the use of Tableau it became clear that most of the Citibike's users were men and that the most popular time of the day to ride was through the weekday during the typic start times for 8 hours shift work. This trend was identified in both men and women. Mapping the data on Manhattan showed the while most trips begin in Lower Manhattan, there are a not insignificant portion of rides that end on the across the Hudson river in New Jersey.
 
-### First Analysis: Checkout Times for Users
+### First Analysis: [Checkout Times for Users](https://public.tableau.com/views/CheckoutxUser/CheckoutxUsers?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ![Checkout Times for Users](Resources/checkouttimeusers.png)
 
 We can see that most trips land in the 3-9 hour ranges showing that people have a tendency to use the bikes for longer trips rather than short.
 
-### Second Analysis: Checkout Times by Gender
+### Second Analysis: [Checkout Times by Gender](https://public.tableau.com/views/CheckoutxGender/CheckoutxGender?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ![Checkout Times by Gender](Resources/checkouttimegender.png)
 
 In this graph we can see that that ride times for women is flat, while for men it curves upward significantly from 3 to 8 hours.
 
-### Third Analysis: Trips/Hour by Weekday
+### Third Analysis: [Trips/Hour by Weekday](https://public.tableau.com/app/profile/michael.rochon7249/viz/TripsxHour/TripsHour)
 
 ![Weekday Trips per hour](Resources/tripsweekday.png)
 
 With this heatmap we see that 8AM and 5PM are the most popular time for Citibike trips with a dip midday during the week. However, this trip is the opposite on the weekend when 10AM to 4PM show the most popularity. Likely due to the 9 to 5 workweek. 
 
-### Fourth Analysis: Trips/Hour by Weekday and Gender
+### Fourth Analysis: [Trips/Hour by Weekday and Gender](https://public.tableau.com/views/TripsxHourGender/TripsHourxGender?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ![Gender Weekday Trips](Resources/tripsweekdaygender.png)
 
 This heatmap reinforces what we have seen in the other data, male riders use Citibikes significantly more than women. The even popularity suggests that the observations made in the third analysis do not change when seperating the data by gender.
 
-### Fifth Analysis: User Type by Gender
+### Fifth Analysis: [User Type by Gender](https://public.tableau.com/app/profile/michael.rochon7249/viz/UserTypexGender/UserTypexGender?publish=yes)
 
 ![User Type by Gender](Resources/usertypegender.png)
 
 This chart lets us see a portion of the data that we haven't addressed in previous observations. The "Unknown" gender category. Likely created when users choose to not to enter their gender, it is obvious that they users would be primarily non-subscribers, and their slightly heavier use on weekends may suggest that they are tourists. This chart further reinforces the gendered usership but does not suggest a split in whether certain genders perfer subscribing or not. 
 
-### Sixth Analysis: Start Time by Gender
+### Sixth Analysis: [Start Time by Gender](https://public.tableau.com/app/profile/michael.rochon7249/viz/TripStartxGender/StarttimexGender?publish=yes)
 
 ![Trip Start by Gender](Resources/tripstartgender.png)
 
 This data was created in order to observe whether or not the program is more popular for men and women at night or during the day. While we had hoped to discover if women were using Citibikes more often to get home from late night activities we found that late night ridership was still predominantly male.
 
-### Seventh Analysis: Start and End Points
+### Seventh Analysis: [Start and End Points](https://public.tableau.com/app/profile/michael.rochon7249/viz/StartEndDense/StartsandEnds?publish=yes)
 
 ![Trip Starts and Ends](Resources/startend.png)
 
